@@ -2,7 +2,7 @@ package locator;
 
 import org.openqa.selenium.By;
 
-public class FAQListLocator { // Класс выпадлающего списка раздела "Вопросы о важном", описание локаторов с помощью Page Object
+public class FAQListLocator { // Класс выпадающего списка раздела "Вопросы о важном", описание локаторов с помощью Page Object
 
 
         // Список вопросов Вопросы о важном

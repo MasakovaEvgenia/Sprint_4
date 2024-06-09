@@ -52,7 +52,7 @@ public abstract class OrderScenario {
     public void testOrderByDownOrderButton() {
         WebDriverWait wait = new WebDriverWait(driver, 2L);
         moveToMainPage();
-        moveToPersonalDataPage(MainLocators.MAKE_ORDER_BUTTON_DOWN);
+        moveToPersonalDataPage(MainLocators.MAKE_ORDER_BUTTON_DOWN); //кнопка заказать внизу страницы
         fillPersonaData();
         moveToAboutRentPage();
         fillRentData(wait);
@@ -64,7 +64,7 @@ public abstract class OrderScenario {
     public void testOrderByUpOrderButton() {
         WebDriverWait wait = new WebDriverWait(driver, 2L);
         moveToMainPage();
-        moveToPersonalDataPage(MainLocators.MAKE_ORDER_BUTTON_UP);
+        moveToPersonalDataPage(MainLocators.MAKE_ORDER_BUTTON_UP); // кнопка заказать в хэдэре
         fillPersonaData();
         moveToAboutRentPage();
         fillRentData(wait);

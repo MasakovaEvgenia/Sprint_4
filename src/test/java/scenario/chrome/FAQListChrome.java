@@ -24,7 +24,7 @@ public class FAQListChrome extends FAQListScenario {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
     }
-
+    // проверка того, что после клика открывается соответсвующий текст
     @Test
     public void shouldOpenCorrespondingTextWhenButtonIsClicked() {
         super.shouldOpenCorrespondingTextWhenButtonIsClicked();

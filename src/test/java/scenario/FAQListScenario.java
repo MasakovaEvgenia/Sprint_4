@@ -44,6 +44,7 @@ public abstract class FAQListScenario {
 
 
     protected abstract void init ();
+    // проверка того, что после клика открывается соответсвующий текст
     @Test
     public void shouldOpenCorrespondingTextWhenButtonIsClicked() {
 

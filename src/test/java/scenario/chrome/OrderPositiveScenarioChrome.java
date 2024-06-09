@@ -26,12 +26,12 @@ public class OrderPositiveScenarioChrome extends OrderScenario {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     }
-
+    // Нажатие на кнопку Заказать в Хэдэре
     @Test
     public void testOrderByUpOrderButton() {
         super.testOrderByUpOrderButton();
     }
-
+    // Нажаитие на кнопку заказать внизу страницы
     @Test
     public void testOrderByDownOrderButton() {
         super.testOrderByDownOrderButton();
